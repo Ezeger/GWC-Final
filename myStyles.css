@@ -1,20 +1,12 @@
 h1{
-  text-align: center;
-  background-image: url("headd.png");
-  font-size: 60px;
-  font-family: cursive;
-  background-position: center;
+ h1{
+  background-color: #EED6EC;
   position: fixed;
   top:-40px;
-  left: 0;
-  z-index: 999;
-  height: 200px;
-  width: 100%;
-  background-position: center;
-  width: 1000px;
-  height: 200px;
-  margin-left: 250px;
-  background-size: cover;
-  background-repeat: repeat;
+  left: 0px;
+  width: 2000px;
+  height: 228px;
+  z-index: -1;
+}
 }
 
