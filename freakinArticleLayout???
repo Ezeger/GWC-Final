@@ -1,9 +1,11 @@
 <head>
 
 <style>
+h1 {
+  border-top: 6px solid black; padding: 20px;
+}
 p {
-  border-top: 6px solid red; padding: 20px;
-  background-color: lightgrey;
+  text-align: center;
 }
 
 </style>
