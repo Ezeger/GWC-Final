@@ -1,12 +1,21 @@
-<header>
+<head>
 
-</header>
+<style>
+p {
+  border-top: 6px solid red; padding: 20px;
+  background-color: lightgrey;
+}
+
+</style>
+<!-- Need a border here! :D -->
+
+</head>
 
 <body>
  
- <h1> Article Title Here </h1> /* Have different CSS? Put h1 as large, same in each, and then set the body text to uniform */
+ <h1> Article Title Here </h1> <!--  Have different CSS? Put h1 as large, same in each, and then set the body text to uniform -->
 
-<p> /* I can set the class as something in a div/gallery, <div class="gallery"> */
+<p> <!--  I can set the class as something in a div/gallery, <div class="gallery"> -->
 
 Article Text Here
 
@@ -17,5 +26,5 @@ Article Text Here
 </body>
 
 
-/* I need a line between each article (at the top) and thennnn to show the title of the article and then some of the content
-or a line in the article */
+<!--  I need a line between each article (at the top) and thennnn to show the title of the article and then some of the content
+or a line in the article -->
