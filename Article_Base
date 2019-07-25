@@ -1,0 +1,46 @@
+<head>
+
+<style>
+h1 {
+  border-top: 6px solid black; padding: 20px;
+}
+p {
+  text-align: center;
+}
+
+</style>
+<!-- Need a border here! :D GOT IT -->
+
+</head>
+
+<body>
+ 
+ <h1> Article Title Here </h1> <!--  Have different CSS? Put h1 as large, same in each, and then set the body text to uniform -->
+
+<p> <!--  I can set the class as something in a div/gallery, <div class="gallery"> -->
+
+
+
+<button onclick="myFunction()"> Show/Hide </button>
+
+<div id="myDIV"> SUMMARY TEXT </div>
+
+<script> function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "ARTICLE SUMMARY") {
+    x.innerHTML = "ARTICLE TEXT";
+    
+  } else {
+    x.innerHTML = "ARTICLE SUMMARY";
+  }
+} </script>
+
+</p>
+
+<a href=" Directory to Image in GIthub"> Image here, if need to be, otherwise, toggle comment out </a>
+
+</body>
+
+
+<!--  I need a line between each article (at the top) and thennnn to show the title of the article and then some of the content
+or a line in the article -->
