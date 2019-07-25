@@ -9,7 +9,7 @@ p {
 }
 
 </style>
-<!-- Need a border here! :D -->
+<!-- Need a border here! :D GOT IT -->
 
 </head>
 
@@ -19,7 +19,21 @@ p {
 
 <p> <!--  I can set the class as something in a div/gallery, <div class="gallery"> -->
 
-Article Text Here
+
+
+<button onclick="myFunction()"> Show/Hide </button>
+
+<div id="myDIV"> SUMMARY TEXT </div>
+
+<script> function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "ARTICLE SUMMARY") {
+    x.innerHTML = "ARTICLE TEXT";
+    
+  } else {
+    x.innerHTML = "ARTICLE SUMMARY";
+  }
+} </script>
 
 </p>
 
