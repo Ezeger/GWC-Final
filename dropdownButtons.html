@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* for spaces between buttons side-by-side*/
+  .divider{
+      width:100px;
+      height:auto;
+      display:inline-block;
+  }
+
+.navbar {
+  overflow: hidden;
+  background-color: #1B1B1B;
+}
+
+/* for home button */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: pink;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1B1B1B;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #1B1B1B;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+/* FRICKITY FRACKITY BOOM */
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+
+  <div class="dropdown">
+    <button class="dropbtn">Beauty
+      <i class="fa fa-caret-down"></i>
+      <div class="divider"/>
+    </button>
+     <div class="dropdown-content">
+      <a href="Cosmetics.html" target="_blank">Cosmetics</a>
+      <a href="SelfCare.html" target="_blank">Self Care</a>
+      <a href="SkinCare.html" target="_blank">Skin Care </a>
+     </div>
+  </div>
+
+   <div class="dropdown">
+        <button class="dropbtn">Fashion
+          <i class = "fa fa-caret-down"></i>
+          <div class="divider"/>
+        </button>
+        <div class="dropdown-content">
+          <a href="PersonalStyle.html" target="_blank">Personal Style</a>
+          <a href="AffordableFashion.html" target="_blank">Affordable Fashion</a>
+          <a href="Trends.html" target="_blank">Trends</a>
+          </div>
+        </div>
+          &nbsp;
+          <div class="dropdown">
+               <button class="dropbtn">Entertainment
+                 <i class = "fa fa-caret-down"></i>
+                 <div class="divider"/>
+               </button>
+               <div class="dropdown-content">
+                 <a href="Netflix.html" target="_blank">Netflix</a>
+                 <a href="Youtube.html" target="_blank">Youtube</a>
+                 <a href="Gaming.html" target="_blank">Gaming</a>
+                 <a href="Music.html" target="_blank">Music</a>
+               </div>
+            </div>
+                  <div class="dropdown">
+                     <button class="dropbtn">Health
+                       <i class = "fa fa-caret-down"></i>
+                       <div class="divider"/>
+                      </button>
+                    <div class="dropdown-content">
+                         <a href="MentalHealth.html" target="_blank">Mental Health</a>
+                         <a href="Fitness.html" target="_blank">Fitness</a>
+        </div>
+   </div>
+ </div>
+</body>
+</html>
