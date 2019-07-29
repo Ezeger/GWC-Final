@@ -12,7 +12,8 @@ p {
 <!-- Need a border here! :D GOT IT -->
 
     <link rel="stylesheet" href="myStyles.css">
-      <link rel="dropdownButtons.html"> <a href="dropdownButtons.html">
+      <link rel="stylesheet" href="textFormat.css">
+        <link rel="dropdownButtons.html"> <a href="dropdownButtons.html">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
   </head> 
