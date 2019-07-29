@@ -86,11 +86,7 @@ p {
 
 
  
- <h1> Article Title Here </h1> <!--  Have different CSS? Put h1 as large, same in each, and then set the body text to uniform -->
-
-<p> <!--  I can set the class as something in a div/gallery, <div class="gallery"> -->
-
-
+ <h1> Article Title Here </h1> 
 
 <button onclick="myFunction()"> Show/Hide </button>
 
@@ -113,5 +109,3 @@ p {
 </body>
 
 
-<!--  I need a line between each article (at the top) and thennnn to show the title of the article and then some of the content
-or a line in the article -->
