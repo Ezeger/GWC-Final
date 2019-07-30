@@ -6,8 +6,12 @@ body {
 /*  Blog Title */
 h1 {
   text-align: center;
+  text-size: 20px;
+  background-color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
-
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 /* For text paragraph */
