@@ -129,6 +129,15 @@ font-size: 30px;
 
 }
 
+#selfcare{
+  background-color: #F3CFFB;
+  width: 300px;
+  height: 150px;
+  border: 1px dotted black;
+  overflow: scroll;
+  color: white;
+  border-radius: 8px;
+
 hr {
   border:none;
   border-top:3px dotted black;
